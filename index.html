@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html>
+<style>
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+</style>
 <body>
-<p>hello</p>
+<div class="loader"></div>
 <script>
 window.addEventListener("load", (event) => {
   location.replace("https://www.notion.so/anuragverma/Anurag-Verma-9eaa59f5b68f4a348e6fc4a4e89723dd?pvs=4");
